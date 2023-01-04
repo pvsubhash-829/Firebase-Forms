@@ -1,5 +1,5 @@
-import { dotenv } from "https://unpkg.com/dotenv@16.0.3/lib/main.js";
-dotenv.config();
+import { DotenvModule } from "https://unpkg.com/dotenv@16.0.3/lib/main.js";
+DotenvModule.config();
 // Import the functions you need from the SDKs you need
 import { initializeApp } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-app.js";
 import { getFirestore } from "https://www.gstatic.com/firebasejs/9.4.0/firebase-firestore.js";
